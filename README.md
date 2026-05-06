@@ -139,8 +139,8 @@ Multiple regression models were trained and compared:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/real-estate-price-prediction.git
-cd real-estate-price-prediction
+git clone https://github.com/yashkrishangupta/Real_Estate_Price_Prediction.git
+cd Real_Estate_Price_Prediction
 ```
 
 ### 2️⃣ Install Dependencies
