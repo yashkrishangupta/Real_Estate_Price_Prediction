@@ -45,10 +45,10 @@ A Machine Learning based Real Estate Price Prediction web application developed 
 ## 📂 Project Structure
 
 ```bash
-FoDS_project/
+Real_Estate_Price_Prediction/
 │
 ├── app.py                               # Main Flask application
-├── Real_Estate_Price_Predication.ipynb # Model training notebook
+├── Real_Estate_Price_Predication.ipynb  # Model training notebook
 ├── pipeline.pkl                         # Trained ML model pipeline
 ├── city_mapping.json                    # City and locality mapping
 ├── dataset.csv                          # Kaggle dataset used for training
@@ -59,6 +59,10 @@ FoDS_project/
 ├── static/
 │   ├── style.css                        # Styling
 │   └── script.js                        # Frontend logic
+│
+│── dashboard/
+│   ├── Real_Estate_Analytics_Dashboard.twbx
+│   └── dashboard_preview.png
 │
 └── README.md
 ```
@@ -162,6 +166,21 @@ http://127.0.0.1:5000/
 ```
 
 ---
+
+## 📊 Tableau Dashboard
+
+An interactive Tableau dashboard was developed to analyze real-estate market trends across cities, localities, property types, BHK configurations, and price ranges.
+
+![Dashboard Preview](Dashboard/Dashboard.png)
+
+### Dashboard Features
+- Property price and price-per-sq-ft analysis
+- City and locality comparisons
+- Property type distribution
+- Interactive filters
+- Real-estate market KPIs
+
+📥 The packaged Tableau workbook (`.twbx`) is available in the `dashboard` folder.
 
 ## 🔮 Future Improvements
 
